@@ -1,0 +1,140 @@
+body {
+    background-color: rgb(0, 0, 0);
+    color: $color-letra;
+
+
+    font-family: 'Roboto', sans-serif;
+    font-style: inherit;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+main {
+
+    background-color: #000000;
+    background-image: linear-gradient(160deg, #000000 35%, #063b36 83%);
+
+}
+
+
+
+
+.foto-gremio-familia {
+
+    max-width: 100%;
+    height: 850px;
+
+}
+
+
+
+
+.gremio-inter {
+    border-radius: 5%;
+}
+
+.gremio-inter {
+    margin-right: 20px;
+
+}
+
+.container-inter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    border-radius: 5px;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    width: 300px;
+    margin: 10px;
+    background-color: #f0f0f0;
+}
+
+.card {
+    background-color: #ffffffbe;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    overflow: hidden;
+    max-width: 400px;
+    margin: 0 auto;
+    margin-left: 15px;
+
+}
+
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+
+.card-info {
+    padding: 20px;
+}
+
+.card-info {
+    margin-top: 0;
+}
+
+.card-info p {
+    margin-bottom: 0;
+}
+
+.card-info a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #2e2e2e;
+    color: #ffffffc7;
+    text-decoration: none;
+    border-radius: 30px;
+}
+
+.contaner-noticia {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.titulo-video {
+    font-style: initial;
+
+    color: #1f6de0;
+
+}
+
+.video-reencuentro-container {
+    width: 100%;
+
+
+}
+
+/* Estilos para pantalla menor a 600px (mobile) */
+@media screen and (max-width: 600px) {
+    
+    .foto-gremio-familia{
+        width: 350px;
+        height: 300px;
+    }
+
+
+    
+    .container {
+        flex-wrap: wrap;
+    }
+
+    .card {
+        width: calc(50% - 20px);
+        
+    }
+
+}

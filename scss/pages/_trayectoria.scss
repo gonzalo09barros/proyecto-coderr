@@ -1,0 +1,95 @@
+.section-nacional {
+    background-color: #0a3652;
+    background-image: linear-gradient(160deg, #082435 0%, #ecdbdb 50%, #a60303 100%);
+    color: #030503;
+}
+
+
+.section-groningen {
+    background-color: #030503;
+    background-image: linear-gradient(62deg, #030503 0%, #35bb35 100%);
+
+}
+
+
+
+.section-ajax {
+    background-color: #c71414;
+    background-image: linear-gradient(160deg, #c71414 41%, #ffdad5 100%);
+
+}
+
+.section-liverpool {
+    background-color: #c71417;
+    background-image: linear-gradient(160deg, #c71417 0%, #121212 100%);
+
+}
+
+
+
+
+
+
+.section-barcelona {
+    background-color: #f7070d;
+    background-image: linear-gradient(348deg, #f7070d 0%, #0f0fa2 86%);
+
+}
+
+.section-atletico {
+    background-color: #e40915;
+    background-image: linear-gradient(348deg, #e40915 30%, #ffffff 63%);
+    color: #030503;
+}
+
+
+
+
+
+
+/* Estilos para pantalla menor a 600px (mobile) */
+
+
+@media (max-width: 600px) {
+
+    .video-container {
+        width: 100%;
+        height: auto;
+        min-width: 100%;
+        border-radius: 5px;
+    }
+
+}
+
+
+/* Estilos para pantalla entre 601px y 1024px (tablet) */
+@media (min-width: 601px) and (max-width: 1024px) {
+
+
+
+    .video-container {
+        width: 100%;
+        height: auto;
+        min-width: 100%;
+        border-radius: 5px;
+    }
+}
+
+/* Estilos para pantalla mayor a 1025px (PC) */
+@media (min-width: 1025px) {
+
+    .video-container iframe {
+        width: 650px;
+        height: 800px;
+        min-width: 650px;
+        border-radius: 5px;
+    }
+
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+
+    }
+
+}
